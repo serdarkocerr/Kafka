@@ -1,2 +1,0 @@
-# kafka
-Consumer,Producer,Stream

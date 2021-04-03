@@ -1,0 +1,23 @@
+{
+	"type": "record",
+	"name": "UserMoney",
+	"namespace": "com.serdar.avro.money",
+	"doc": "The key value type.",
+	"fields": [
+		{
+			"name": "Name",
+			"type": "string",
+			"doc": "The key string, must not be null."
+		},
+		{
+            "name": "amount",
+            "type": "string",
+            "doc": "The amount string, must not be null."
+        },
+		{
+            "name": "time",
+            "type": "string",
+            "doc": "The time string, must not be null."
+        }
+	]
+}
