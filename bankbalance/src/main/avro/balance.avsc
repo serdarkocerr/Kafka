@@ -1,0 +1,23 @@
+{
+	"type": "record",
+	"name": "Balance",
+	"namespace": "com.serdar.bankbalance.avro",
+	"doc": "The key value type.",
+	"fields": [
+		{
+			"name": "count",
+			"type": "int",
+			"doc": "The key string, must not be null."
+		},
+		{
+            "name": "balance",
+            "type": "int",
+            "doc": "The amount string, must not be null."
+        },
+		{
+            "name": "time",
+            "type": "string",
+            "doc": "The time string, must not be null."
+        }
+	]
+}
