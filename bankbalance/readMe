@@ -1,2 +1,2 @@
 avro schema  to class ==> mvn compile
-- before streaming topics should be created.
+- before streaming topics should be created. (Manual or usign Kafka AdminClient)
