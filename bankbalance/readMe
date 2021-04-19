@@ -1,1 +1,2 @@
 avro schema  to class ==> mvn compile
+- before streaming topics should be created.
