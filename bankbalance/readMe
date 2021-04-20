@@ -5,7 +5,7 @@ avro schema  to class ==> mvn compile
 create local-repository from exernal jar in maven
 - create folder as named local-repo
 - run below command 
-mvn install:install-file -Dfile=./alljars/jarFiles/test.jar -DgroupId=local-repo-group -DartifactId=test-model -Dversion=0.1 -Dpackaging=jar -DlocalRepositoryPath=./local-repo
+mvn install:install-file -Dfile=./jarFiles/test.jar -DgroupId=local-repo-group -DartifactId=test-model -Dversion=0.1 -Dpackaging=jar -DlocalRepositoryPath=./local-repo
 - add below configuration to pom.xml
       <repository>
         <id>local-repo</id>
